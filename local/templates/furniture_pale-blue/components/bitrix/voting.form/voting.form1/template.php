@@ -197,7 +197,7 @@ endif;
 </div>
 <? endif // CAPTCHA_CODE ?>
 
-<div class="vote-form-box-buttons vote-vote-footer">
+<div class="vote-form-box-buttons vote-vote-footer" style="display: none;">
 	<span class="vote-form-box-button vote-form-box-button-first"><input type="submit" name="vote" value="<?=GetMessage("VOTE_SUBMIT_BUTTON")?>" /></span>
 <?/*?>	<span class="vote-form-box-button vote-form-box-button-last"><input type="reset" value="<?=GetMessage("VOTE_RESET")?>" /></span><?*/?>
 	<span class="vote-form-box-button vote-form-box-button-last">
